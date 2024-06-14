@@ -5,6 +5,7 @@ function Hi(event){
 
     let N = prompt("Тебя как зовут?")
     console.log("Привет,",N,"!")
+    alert.log(N)
     document.title = "Привет, " + N + "!"
 }
 
