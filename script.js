@@ -4,8 +4,8 @@ function Hi(event){
     event.preventDefault()
 
     let N = prompt("Тебя как зовут?")
-    console.log("Привет,",N,"!")
     alert.log(N)
+    // console.log("Привет,",N,"!")
     document.title = "Привет, " + N + "!"
 }
 
